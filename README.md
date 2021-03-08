@@ -7,9 +7,9 @@ One thing you will need to do is paste your own configuration in application.pro
 database (I used SQL Server Driver, you can use something else like MySQL Driver) and credentials to mailtrap.io 
 which I removed due to data privacy. When you will have your credentials from mailtrap.io, paste there.
 
-# How to run?
+## How to run?
 
 To run this application, first build your project (by letting Maven download and install important dependencies from
 pom.xml file) and then hit 'Run' option in Intellij IDEA.
 
-You can test your API, launcing Swagger UI here: http://localhost:<your-port>/swagger-ui.html
+You can test your API, launcing Swagger UI here: http://localhost:8080/swagger-ui.html
